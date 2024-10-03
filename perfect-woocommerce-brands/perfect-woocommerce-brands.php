@@ -4,7 +4,7 @@
  * Plugin Name:             Perfect Brands WooCommerce
  * Plugin URI:              https://quadlayers.com/products/perfect-woocommerce-brands/
  * Description:             Perfect WooCommerce Brands allows you to show product brands in your WooCommerce based store.
- * Version:                 3.4.3
+ * Version:                 3.4.4
  * Text Domain:             perfect-woocommerce-brands
  * Author:                  QuadLayers
  * Author URI:              https://quadlayers.com
@@ -14,7 +14,7 @@
  * Tested up to:            6.6
  * Requires PHP:            5.6
  * WC requires at least:    4.0
- * WC tested up to:         9.2
+ * WC tested up to:         9.3
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -23,7 +23,7 @@ define( 'PWB_PLUGIN_FILE', __FILE__ );
 define( 'PWB_PLUGIN_URL', plugins_url( '', __FILE__ ) );
 define( 'PWB_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
 define( 'PWB_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
-define( 'PWB_PLUGIN_VERSION', '3.4.3' );
+define( 'PWB_PLUGIN_VERSION', '3.4.4' );
 define( 'PWB_PLUGIN_NAME', 'Perfect WooCommerce Brands' );
 define( 'PWB_PREFIX', 'pwb' );
 define( 'PWB_PURCHASE_URL', 'https://quadlayers.com/products/perfect-woocommerce-brands/?utm_source=pwb_admin' );
@@ -55,7 +55,7 @@ require_once __DIR__ . '/lib/class-plugin.php';
  */
 register_activation_hook(
 	__FILE__,
-	function() {
+	function () {
 		do_action( 'pwb_activation' );
 		update_option( 'pwb_activate_on', time() );
 	}
@@ -66,7 +66,7 @@ register_activation_hook(
  */
 register_deactivation_hook(
 	__FILE__,
-	function() {
+	function () {
 		do_action( 'pwb_deactivation' );
 		/**
 		 * Clean brands slug
@@ -80,7 +80,7 @@ register_deactivation_hook(
  */
 add_action(
 	'before_woocommerce_init',
-	function() {
+	function () {
 		if ( class_exists( '\Automattic\WooCommerce\Utilities\FeaturesUtil' ) ) {
 			\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
 		}
