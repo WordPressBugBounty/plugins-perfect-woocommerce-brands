@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'quadlayers/perfect-woocommerce-brands',
-        'pretty_version' => 'v3.4.5',
-        'version' => '3.4.5.0',
-        'reference' => '1148f61235e461a979ec2b9604f2ca7b6c0481f4',
+        'pretty_version' => 'v3.4.6',
+        'version' => '3.4.6.0',
+        'reference' => '11cf4a0cd3ea672bbe23a60dcde4801a3b518d93',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'quadlayers/perfect-woocommerce-brands' => array(
-            'pretty_version' => 'v3.4.5',
-            'version' => '3.4.5.0',
-            'reference' => '1148f61235e461a979ec2b9604f2ca7b6c0481f4',
+            'pretty_version' => 'v3.4.6',
+            'version' => '3.4.6.0',
+            'reference' => '11cf4a0cd3ea672bbe23a60dcde4801a3b518d93',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'quadlayers/wp-notice-plugin-promote' => array(
-            'pretty_version' => '1.1.5',
-            'version' => '1.1.5.0',
-            'reference' => 'cea8e5409b2a088618c1f51c94da1d3ab6f057b2',
+            'pretty_version' => '1.1.6',
+            'version' => '1.1.6.0',
+            'reference' => 'b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/quadlayers/wp-notice-plugin-promote',
             'aliases' => array(),

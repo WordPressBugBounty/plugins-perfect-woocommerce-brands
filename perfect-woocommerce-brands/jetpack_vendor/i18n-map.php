@@ -14,7 +14,7 @@ return array(
     ),
     'wp-notice-plugin-promote' => array(
       'path' => 'jetpack_vendor/quadlayers/wp-notice-plugin-promote',
-      'ver' => '1.1.5',
+      'ver' => '1.1.6',
     ),
     'wp-notice-plugin-required' => array(
       'path' => 'jetpack_vendor/quadlayers/wp-notice-plugin-required',

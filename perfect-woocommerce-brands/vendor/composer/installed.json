@@ -233,17 +233,17 @@
         },
         {
             "name": "quadlayers/wp-notice-plugin-promote",
-            "version": "1.1.5",
-            "version_normalized": "1.1.5.0",
+            "version": "1.1.6",
+            "version_normalized": "1.1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/franmastromarino/wp-notice-plugin-promote.git",
-                "reference": "cea8e5409b2a088618c1f51c94da1d3ab6f057b2"
+                "reference": "b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/franmastromarino/wp-notice-plugin-promote/zipball/cea8e5409b2a088618c1f51c94da1d3ab6f057b2",
-                "reference": "cea8e5409b2a088618c1f51c94da1d3ab6f057b2",
+                "url": "https://api.github.com/repos/franmastromarino/wp-notice-plugin-promote/zipball/b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8",
+                "reference": "b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8",
                 "shasum": ""
             },
             "require": {
@@ -254,7 +254,7 @@
                 "phpcompatibility/phpcompatibility-wp": "^2.1.0",
                 "wp-coding-standards/wpcs": "^2.3.0"
             },
-            "time": "2024-08-07T18:58:37+00:00",
+            "time": "2024-10-25T13:53:55+00:00",
             "type": "jetpack-library",
             "extra": {
                 "textdomain": "wp-notice-plugin-promote"
@@ -284,7 +284,7 @@
             ],
             "support": {
                 "issues": "https://github.com/franmastromarino/wp-notice-plugin-promote/issues",
-                "source": "https://github.com/franmastromarino/wp-notice-plugin-promote/tree/1.1.5"
+                "source": "https://github.com/franmastromarino/wp-notice-plugin-promote/tree/1.1.6"
             },
             "install-path": "../../jetpack_vendor/quadlayers/wp-notice-plugin-promote"
         },
